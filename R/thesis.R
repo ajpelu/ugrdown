@@ -17,7 +17,7 @@
 #'   template
 #' @examples
 #' \dontrun{
-#' output:thesisdown::thesis_pdf
+#' output:ugrthesisdown::thesis_pdf
 #' }
 thesis_pdf <- function(toc = TRUE, toc_depth = 3, highlight = "default", ...) {
   base <- bookdown::pdf_book(
@@ -111,7 +111,7 @@ thesis_gitbook <- function(...) {
 #' the Reed Senior Thesis Word template
 #' @examples
 #' \dontrun{
-#' output:thesisdown::thesis_word
+#' output:ugrthesisdown::thesis_word
 #' }
 thesis_word <- function(...) {
   base <- bookdown::word_document2(...)
@@ -134,7 +134,7 @@ thesis_word <- function(...) {
 #' @return A ebook version of the thesis
 #' @examples
 #' \dontrun{
-#' output:thesisdown::thesis_epub
+#' output:ugrthesisdown::thesis_epub
 #' }
 thesis_epub <- function(...) {
   base <- bookdown::epub_book(...)

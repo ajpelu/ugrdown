@@ -1,14 +1,14 @@
 ---
-title: 'My Final College Paper'
+title: 'Título de la tesis doctoral'
 author: 'Your R. Name'
 date: 'May 20xx'
-institution: 'Reed College'
-division: 'Mathematics and Natural Sciences'
-advisor: 'Advisor F. Name'
+institution: 'Universidad de Granada'
+division: 'Programa de Doctorado'
+advisor: 'Nombre del Director de la tesis'
 # If you have more two advisors, un-silence line 7
-#altadvisor: 'Your Other Advisor'
-department: 'Mathematics'
-degree: 'Bachelor of Arts'
+#altadvisor: 'Nombre del co-Director de la tesis'
+department: 'Ecología'
+degree: 'Doctor'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 
