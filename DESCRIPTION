@@ -1,4 +1,4 @@
-Package: ugrdown
+Package: ugrthesisdown
 Title: An updated R Markdown thesis template using the bookdown package
 Version: 0.0.1
 Authors@R: c(
