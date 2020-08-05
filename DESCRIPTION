@@ -4,7 +4,7 @@ Version: 0.0.1
 Authors@R: c(
     person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = c("cre", "aut")),
     person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"),
-    person("Antonio J","Pérez-Luque",  email = "ajpelu@gmail.com", role =c("cre", "aut")))
+    person("Antonio J","Pérez-Luque",  email = "ajpelu@gmail.com", role ="aut"))
 Description: Using the bookdown and thesisdown packages, and custom templates from
     Univeristy of Granada, this package aims to encourage reproducible research using
     simple Markdown syntax while embedding all of the R code to produce plots
@@ -25,4 +25,4 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 SystemRequirements: pandoc (>= 1.18) - https://pandoc.org
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1

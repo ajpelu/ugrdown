@@ -293,7 +293,7 @@
   \let \footnote \thanks
 
   \baselineskip = 1.4\baselineskip
-  \setbox0=\hbox{of the Requirements for the Degree}
+  \setbox0=\hbox{para aspirar al grado de Doctor}
 
   \begin{center}
     \setcounter{page}{1}
@@ -302,15 +302,15 @@
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
-    A Thesis \\
-    Presented to \\
+    Una Tesis Doctoral \\
+    del programa de Doctorado \\
     \@thedivisionof \ \@division \\
     \@institution
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
-    In Partial Fulfillment \\
-    of the Requirements for the Degree \\
+    De acuerdo a los requisistos establecidos \\
+    por la Escuela de Posgrado de la Universidad de Granada \\
     \@degree
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
@@ -329,7 +329,7 @@
 %% Approved for the division page
   \cleardoublepage
   {\fontsize{12}{14}
-  \setbox0=\hbox{Approved for the \@approvedforthe}
+  \setbox0=\hbox{Aprobado por \@approvedforthe}
   \thispagestyle{empty}
   \null\vfil		% just below center of page
   \par\vskip 6cm	% below center, not center
