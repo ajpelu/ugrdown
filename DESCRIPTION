@@ -1,14 +1,15 @@
-Package: thesisdown
+Package: ugrdown
 Title: An updated R Markdown thesis template using the bookdown package
-Version: 0.1.0
+Version: 0.0.1
 Authors@R: c(
     person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = c("cre", "aut")),
-    person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"))
-Description: Using the bookdown package and LaTeX and Word thesis templates from
-    Reed College, this package aims to encourage reproducible research using
+    person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut")),
+    person("Antonio J","Pérez-Luque",  email = "ajpelu@gmail.com", role =c("cre", "aut"))
+Description: Using the bookdown and thesisdown packages, and custom templates from
+    Univeristy of Granada, this package aims to encourage reproducible research using
     simple Markdown syntax while embedding all of the R code to produce plots
     and analyses as well.
-Maintainer: Chester Ismay <chester.ismay@gmail.com>
+Maintainer: Antonio J. Pérez-Luque <ajpelu@gmail.com>
 Depends:
     R (>= 3.2.0)
 Imports: 
